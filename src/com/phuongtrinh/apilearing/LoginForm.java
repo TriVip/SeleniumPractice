@@ -33,6 +33,7 @@ public class LoginForm {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash-messages")));
 
         driver.findElement(By.id("___wrong_value"));
+        driver.quit();
 
     }
 }

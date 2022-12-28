@@ -7,7 +7,7 @@ public class Webdriver {
     public static WebDriver getChromeDriver(){
 
         String path = System.getProperty("user.dir");
-        String chromeDriverPath = path + "/chromedriver.exe";
+        String chromeDriverPath = path + "/chromedriver";
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 
         return new ChromeDriver();
